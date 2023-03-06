@@ -15,5 +15,6 @@ const i18n          = new VueI18n({
     },
     silentTranslationWarn: true
 });
+//shizhi yuuyan
 localStorage.setItem('language',lang);    //最后缓存当前使用的语言
 export default {i18n};
